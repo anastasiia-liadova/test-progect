@@ -1,0 +1,62 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+    /* Говорит о том, что весь наш документ
+    будет считать отступ вместе padding, так же как и его элементы и псевдо элементы  */
+  }
+  
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  img,
+  svg {
+    max-width: 100%;
+    /* Чтобы изображ. не выходили за границы контейнера в котором наход. */
+  }
+
+  body {
+    min-width: var(--body-min-width);
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+  }
+
+  .container {
+    max-width: var(--container-max-width);
+    padding: var(--container-padding);
+    /* ставим паддинг,чтобы контент не прилипал по бокам с контейнеру */
+    margin: var(--container-margin);
+    /* Чтобы центрировался по центру */
+  }
+
+  .flex {
+    display: flex;
+  }
+  
+
+  
+/* reset */
+
+.list-reset {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 10px;
+    /* для сброса невидимого отступа у списком */
+  }
+  
+  .btn-reset {
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    /* класс для сброса стилей кнопопк */
+  }
+

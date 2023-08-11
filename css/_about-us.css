@@ -1,0 +1,36 @@
+.about {
+  margin: 0;
+  margin-bottom: 50px;
+  padding-bottom: 80px;
+  border-bottom: 1px solid var(--light-grey);
+}
+
+.about-us-title {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 35px;
+  color: var(--dark-grey);
+  font-weight: 400;
+  font-family: "Open Sans";
+}
+
+.about-us-descr {
+  margin: 0;
+  margin-bottom: 60px;
+  text-align: center;
+  font-size: 17px;
+  color: var(--dark-grey);
+  font-weight: 400;
+  font-family: "Open Sans";
+  text-align: center;
+}
+
+.about-us-list {
+  margin: 0;
+  padding: 0 45px;
+}
+
+.about-us-list-items:not(:nth-child(4n)) {
+  margin-right: 40px;
+}

@@ -1,0 +1,18 @@
+:root {
+    /* sazes */
+    --container-max-width: 1024px;
+    --container-padding: 0 35px;
+    --container-margin: 0 auto;
+    --body-min-width: 320px;
+
+    /* color */
+    --white: #fff;
+    --light-grey: #cacaca;
+    --dark-grey: #636363;
+    --peach: #de6d6e;
+    --violete: rgb(128, 0, 128);
+    --black: rgb(37, 36, 36);
+
+
+    --short: 0.3s;
+}

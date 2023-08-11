@@ -1,0 +1,37 @@
+.hero {
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.hero-content {
+  max-width: 1770px;
+  flex-direction: column;
+  background-image: url("/img/header-flower.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  margin: 0;
+  padding-top: 250px;
+  padding-bottom: 15px;
+  text-align: center;
+  color: var(--white);
+  font-size: 69px;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-family: "Open Sans";
+  filter: drop-shadow(0 0 6.5px rgba(0, 0, 0, 0.22));
+}
+
+.hero-desr {
+  margin: 0;
+  padding-bottom: 70px;
+  text-align: center;
+  color: var(--white);
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "Open Sans";
+  filter: drop-shadow(0 0 6.5px rgba(0, 0, 0, 0.22));
+}
